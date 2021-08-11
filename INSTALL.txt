@@ -1,0 +1,35 @@
+
+INSTALLATION:
+    To create an executable:
+
+    Make sure 'pip' (https://pip.pypa.io/en/stable/) is installed on your system by opening a command prompt and typing:
+        pip --version
+    A version number should be printed out, if not go to the link above and install pip.
+
+    A executable file can be created with 'pyinstaller'. From the project directory run:
+        pip install pyinstaller
+    Install all the necessary dependencies by running:
+        pip install -r requirements.txt
+    then run 'install.py' to use 'pyinstaller' to create the executable.
+        python3 install.py
+
+    This will create a directory 'dist/' containing an executable file which will run the program.
+
+    To run from a command line:
+
+    Make sure 'pip' (https://pip.pypa.io/en/stable/) is installed on your system by opening a command prompt and typing:
+        pip --version
+    A version number should be printed out, if not go to the link above and install pip.
+
+    Install all the necessary dependencies by running:
+        pip install -r requirements.txt
+    then run the app with:
+        python3 gui.py
+
+    IMPORTANT:
+        In order too run correctly the app requires icons and company data. The icons are found in './icons' and must be in
+        the same folder as the executable. Company data is stored in 'snp_dict.pickle' and will be generated automatically if not found
+        in the same folder as the executable. This will take a LONG time (~20+ minutes) however, so it is best to share the executable with
+        a current version of 'snp_dict.pickle'.
+
+        The may take several minutes to load if it has to pull a lot of data from the internet.

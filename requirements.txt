@@ -1,0 +1,9 @@
+pyinstaller
+yfinance
+pytz
+matplotlib
+mplfinance
+bs4
+ttkthemes
+requests_futures
+tqdm
